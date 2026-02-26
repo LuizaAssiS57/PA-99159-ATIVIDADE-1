@@ -54,14 +54,14 @@ body{
 
 
 
-/* 3. Estilizando o Conteúdo Principal */
+/* Estilizando o Conteúdo Principal */
 .CONTEUDO-PRINCIPAL {
     max-width: 800px;  /* Limita a largura do texto para não ficar esticado */
     margin: 40px auto; /* Centraliza o bloco de conteúdo na tela */
     padding: 20px;
     
-    /* O SEGREDO DA TRANSPARÊNCIA: */
-    background: rgba(255, 255, 255, 0.20); /* Branco com 75% de opacidade */
+    /* TRANSPARÊNCIA: */
+    background: rgba(255, 255, 255, 0.20); /* Branco com 7 opacidade */
     backdrop-filter: blur(15px);          /* Desfoca o fundo atrás da caixa */
     
     border-radius: 10px;
@@ -86,7 +86,7 @@ h2 {
 .BOTAO_01 {
     display: inline-block;
     padding: 8px 15px;
-    background-color: blue; /* Cinza grafite escuro */
+    background-color: #001f6c; /* Cinza grafite escuro */
     color: #fff;
     text-decoration: none;
     font-weight: 600;
@@ -105,7 +105,7 @@ h2 {
 
 
 
-/* 4. Estilizando o Rodapé */
+/* Estilizando o Rodapé */
 .RODAPE {
     text-align: center;
     padding: 20px;
