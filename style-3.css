@@ -28,18 +28,18 @@ body{
 
 }
 
-.LOGO_FINLANDIA {
+.LOGO_NORUEGA {
     
     width: 100px;     /* Tamanho da imagem */
     height: auto;     /* Mantém a proporção */
     transition: 0.3s; /* Efeito suave para interações */
 }
 
-.LOGO_FINLANDIA:hover {
+.LOGO_NORUEGA:hover {
     transform: scale(1.1); /* Aumenta o tamanho e gira a imagem ao passar o mouse */
 }
 
-.BANDEIRA_FINLANDIA {
+.BANDEIRA_NORUEGA {
     width: 200px;     /* Tamanho da imagem */
     height: auto;     /* Mantém a proporção */
     display: block;
@@ -48,7 +48,7 @@ body{
 
 }
 
-.BANDEIRA_FINLANDIA:hover {
+.BANDEIRA_NORUEGA:hover {
     transform: scale(1.1) ; /* Aumenta o tamanho e gira a imagem ao passar o mouse */
 }
 

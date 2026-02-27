@@ -7,8 +7,10 @@
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     background-image: url(assets/aurora-boreal-finlândia.jpg);
+    line-height: 1.6;
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
