@@ -39,6 +39,19 @@ body{
     transform: scale(1.1); /* Aumenta o tamanho e gira a imagem ao passar o mouse */
 }
 
+.GLOBO {
+    width: 150px;     /* Tamanho da imagem */
+    height: auto;     /* Mantém a proporção */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente e adiciona margem vertical */
+    transition: 0.3s;
+
+}
+
+.GLOBO:hover {
+    transform: scale(1.1) ; /* Aumenta o tamanho e gira a imagem ao passar o mouse */
+}
+
 .BANDEIRA_FINLANDIA {
     width: 200px;     /* Tamanho da imagem */
     height: auto;     /* Mantém a proporção */
