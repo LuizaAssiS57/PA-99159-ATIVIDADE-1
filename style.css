@@ -93,6 +93,20 @@ ol {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
+.btn_suecia {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #006aa7; 
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
 .paisagem {
     display: block;
     max-width: 100%;
@@ -118,6 +132,12 @@ ol {
 }
 
 .btn_finlandia:hover {
+    background-color: #000; 
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.btn_suecia:hover {
     background-color: #000; 
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(0,0,0,0.3);

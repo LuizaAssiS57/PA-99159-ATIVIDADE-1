@@ -16,3 +16,92 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.topo-suecia {
+    /* background-color: rgb(2, 2, 2); */
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Centraliza o logo horizontalmente */
+   
+}
+
+.LOGO_SUECIA {
+    
+    width: 100px;     /* Tamanho da imagem */
+    height: auto;     /* Mantém a proporção */
+    transition: 0.3s; /* Efeito suave para interações */
+}
+
+.LOGO_SUECIA:hover {
+    transform: scale(1.1); /* Aumenta o tamanho e gira a imagem ao passar o mouse */
+}
+
+.conteudo-suecia {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.globo-suecia {
+    width: 150px;     /* Tamanho da imagem */
+    height: auto;     /* Mantém a proporção */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente e adiciona margem vertical */
+    transition: 0.3s;
+
+}
+
+.globo-suecia:hover {
+    transform: scale(1.1) ; /* Aumenta o tamanho e gira a imagem ao passar o mouse */
+}
+
+.CONTAINIER-BOTOES {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.BANDEIRA_SUECIA {
+    width: 200px;     /* Tamanho da imagem */
+    height: auto;     /* Mantém a proporção */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente e adiciona margem vertical */
+    transition: 0.3s; /* Efeito suave para interações */
+
+}
+
+.BANDEIRA_SUECIA:hover {
+    transform: scale(1.1) ; /* Aumenta o tamanho e gira a imagem ao passar o mouse */
+}
+
+.CONTAINIER-BOTOES {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.BOTAO_01 {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #001f6c; /* Cinza grafite escuro */
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.BOTAO_01:hover {
+    background-color: #000; /* Fica preto total ao passar o mouse */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
